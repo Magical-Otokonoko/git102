@@ -1,5 +1,5 @@
 package magasin;
-
+// ok
 public class Vetement extends Bien{
     enum Tailles{
         XS,
