@@ -40,7 +40,7 @@ public class run {
         Vetement vetement2 = new Vetement(15, Vetement.Tailles.M);
 
         habitant4.ajouterBiens(vetement1, vetement2);
-        habitant1.calculerValeurBiens();
+        habitant1.calculValeurBiens();
 
     }
 }
