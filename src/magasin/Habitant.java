@@ -27,6 +27,14 @@ public class Habitant {
         }
     }
 
+    public void calculValeurBiens(){
+        double sum = this.getArgent();
+        for(Bien bien: this.getBiens()){
+            sum += bien.getPrix();
+        }
+        System.out.println(this.getNom() + "aurait " + sum + " euros");
+    }
+
     /*GETTERS AND SETTERS*/
     public String getPrenom() {
         return prenom;
