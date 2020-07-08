@@ -7,7 +7,7 @@ public class run {
         Habitant habitant3 = new Habitant("Céline", "Goutier", 600.99);
         Habitant habitant4 = new Habitant("Dominique", "Dio", 9458.14);
         Habitant habitant5 = new Habitant("Eric", "Marloi", 6971.22);
-
+//commentaire branche nael-le
         Bien bijou1 = new Bijou(97.45, "bleu");
         Bien bijou2 = new Bijou(50, "bleu");
         Bien bijou3 = new Bijou(85, "bleu");
