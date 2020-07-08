@@ -1,5 +1,5 @@
 package magasin;
-
+// lol
 import java.util.ArrayList;
 
 public class Habitant {
@@ -35,13 +35,13 @@ public class Habitant {
         System.out.println(this.getNom() + "aurait " + sum + " euros");
     }
 
-    public void louerBiens(Louable bienLoue, Habitant habitant){
+    public void louerBiens(Louable bienLoue, Habitant habitant) {
         this.setArgent(this.argent - bienLoue.getPrixLocation());
-        habitant.setArgent(habitant.getArgent()+ bienLoue.getPrixLocation());
+        habitant.setArgent(habitant.getArgent() + bienLoue.getPrixLocation());
         System.out.println(this.getNom() + " a loue le bien pour" + bienLoue.getPeriodeLocation() + "à " + habitant.getPrenom());
     }
 
-    public void louerService (Habitant habitant, String service){
+    public void louerService(Habitant habitant, String service) {
         this.setArgent(this.getArgent() - 75);
         habitant.setArgent(habitant.getArgent() + 75);
         System.out.println(this.getNom() + "loue les services de" + habitant.getNom() + " pour " + service + " une journée");
