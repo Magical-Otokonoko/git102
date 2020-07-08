@@ -36,5 +36,10 @@ public class run {
         habitant3.ajouterBiens(livre3);
         habitant4.ajouterBiens(livre4);
 
+        Vetement vetement1 = new Vetement(45, Vetement.Tailles.XL);
+        Vetement vetement2 = new Vetement(15, Vetement.Tailles.M);
+
+        habitant4.ajouterBiens(vetement1, vetement2);
+
     }
 }

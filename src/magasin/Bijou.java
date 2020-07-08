@@ -8,6 +8,15 @@ public class Bijou extends Bien{
         this.couleur = couleur;
     }
 
+    @Override
+    public String toString() {
+        return "Bijou{" +
+                '\n' + "prix= " + getPrix() + "€" + '\n'+
+                "couleur='" + couleur + '\'' +
+                '}';
+    }
+
+    /*GETTERS AND SETTERS*/
     public String getCouleur() {
         return couleur;
     }
