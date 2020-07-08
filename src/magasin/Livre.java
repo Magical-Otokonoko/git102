@@ -1,6 +1,6 @@
 package magasin;
 
-public class Livre extends Bien{
+public class Livre extends Bien implements Louable{
     private String titre;
 
     public Livre(double prix, String titre) {
@@ -15,6 +15,17 @@ public class Livre extends Bien{
                 "titre='" + titre + '\'' +
                 '}';
     }
+
+    @Override
+    public double getPrixLocation() {
+        return this.getPrix()*0.10;
+    }
+
+    @Override
+    public String getPeriodeLocation() {
+        return "15 jours";
+    }
+
 
     /*GETTERS AND SETTERS*/
     public String getTitre() {
