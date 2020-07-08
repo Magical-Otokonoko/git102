@@ -1,5 +1,5 @@
 package magasin;
-
+//lol
 import java.util.ArrayList;
 
 public class Habitant {
