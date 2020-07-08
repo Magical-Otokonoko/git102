@@ -1,7 +1,7 @@
 package magasin;
 
-public class Vetement extends Bien{
-    enum Tailles{
+public class Vetement extends Bien {
+    enum Tailles {
         XS,
         S,
         M,

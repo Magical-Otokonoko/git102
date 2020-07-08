@@ -2,7 +2,7 @@ package magasin;
 
 public class run {
     public static void main(String[] args) {
-        Habitant habitant1= new Habitant("Albert", "Polak", 9400.30);
+        Habitant habitant1 = new Habitant("Albert", "Polak", 9400.30);
         Habitant habitant2 = new Habitant("Bob", "Lonzo", 1541.7);
         Habitant habitant3 = new Habitant("Céline", "Goutier", 600.99);
         Habitant habitant4 = new Habitant("Dominique", "Dio", 9458.14);
