@@ -34,4 +34,11 @@ public class Bijou extends Bien implements Louable{
     public void setCouleur(String couleur) {
         this.couleur = couleur;
     }
+
+    @Override
+    public void setPrix(double prix) {
+        if(prix<this.getPrix())
+            prix=this.getPrix();
+        super.setPrix(prix);
+    }
 }
