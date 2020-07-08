@@ -41,6 +41,12 @@ public class Habitant {
         System.out.println(this.getNom() + " a loue le bien pour" + bienLoue.getPeriodeLocation() + "à " + habitant.getPrenom());
     }
 
+    public void louerService (Habitant habitant, String service){
+        this.setArgent(this.getArgent() - 75);
+        habitant.setArgent(habitant.getArgent() + 75);
+        System.out.println(this.getNom() + "loue les services de" + habitant.getNom() + " pour " + service + " une journée");
+    }
+
     /*GETTERS AND SETTERS*/
     public String getPrenom() {
         return prenom;
