@@ -20,6 +20,13 @@ public class Habitant {
         }
     }
 
+    public void afficheSesBiens(){
+        for(Bien Bien: this.getBiens()) {
+
+            System.out.println(Bien);
+        }
+    }
+
     /*GETTERS AND SETTERS*/
     public String getPrenom() {
         return prenom;
