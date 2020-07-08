@@ -12,6 +12,9 @@ public abstract class Bien {
     }
 
     public void setPrix(double prix) {
-        this.prix = prix;
+        if(prix < 0)
+            this.prix = 0;
+        else
+            this.prix = prix;
     }
 }
