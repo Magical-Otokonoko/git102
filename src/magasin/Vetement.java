@@ -16,6 +16,15 @@ public class Vetement extends Bien {
         this.taille = taille;
     }
 
+    @Override
+    public String toString() {
+        return "Vetement{" +
+                '\n' + "prix= " + getPrix() + "€" + '\n'+
+                "taille=" + taille +
+                '}';
+    }
+
+    /*Getters and Setters*/
     public Tailles getTaille() {
         return taille;
     }

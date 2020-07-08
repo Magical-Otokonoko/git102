@@ -8,6 +8,15 @@ public class Livre extends Bien{
         this.titre = titre;
     }
 
+    @Override
+    public String toString() {
+        return "Livre{" +
+                '\n' + "prix= " + getPrix() + "€" + '\n'+
+                "titre='" + titre + '\'' +
+                '}';
+    }
+
+    /*GETTERS AND SETTERS*/
     public String getTitre() {
         return titre;
     }
