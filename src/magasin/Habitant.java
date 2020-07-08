@@ -14,22 +14,22 @@ public class Habitant {
         this.argent = argent;
     }
 
-    public void ajouterBiens(Bien... biens){
-        for (Bien bien: biens) {
+    public void ajouterBiens(Bien... biens) {
+        for (Bien bien : biens) {
             this.getBiens().add(bien);
         }
     }
 
-    public void afficheSesBiens(){
-        for(Bien Bien: this.getBiens()) {
+    public void afficheSesBiens() {
+        for (Bien Bien : this.getBiens()) {
 
             System.out.println(Bien);
         }
     }
 
-    public void calculValeurBiens(){
+    public void calculValeurBiens() {
         double sum = this.getArgent();
-        for(Bien bien: this.getBiens()){
+        for (Bien bien : this.getBiens()) {
             sum += bien.getPrix();
         }
         System.out.println(this.getNom() + "aurait " + sum + " euros");
