@@ -35,6 +35,11 @@ public class Habitant {
         System.out.println(this.getNom() + "aurait " + sum + " euros");
     }
 
+    public void louerBiens(Louable bienLoue){
+        this.setArgent(this.argent - bienLoue.getPrixLocation());
+        System.out.println(this.getNom() + " a loue le bien pour" + bienLoue.getPeriodeLocation());
+    }
+
     /*GETTERS AND SETTERS*/
     public String getPrenom() {
         return prenom;
