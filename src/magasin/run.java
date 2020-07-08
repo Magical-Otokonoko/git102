@@ -41,6 +41,7 @@ public class run {
 
         habitant4.ajouterBiens(vetement1, vetement2);
         habitant1.calculValeurBiens();
+        System.out.println(HabitantService.habitantLePlusRouge(habitant1, habitant2, habitant3, habitant4));
 
     }
 }
